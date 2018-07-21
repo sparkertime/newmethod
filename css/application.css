@@ -50,15 +50,21 @@ h1, h2, h3, h4, h5 {
   margin-right: 10px;
 }
 
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,0,0)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 .jumbotron {
-  background-color: #F00;
-  background-image: url("../img/jumbo-blue.jpg");
+  background-image: url("../img/jumbo-final2.jpg");
   background-size: cover;
   min-height: 375px;
   position: relative;
 }
 
 .jumbotron .headers {
+  background-color: rgba(255,0,0,0.7);
+  display: inline-block;
+  width: 600px;;
   position: absolute;
   bottom: 25%;
   left:0;
@@ -78,4 +84,8 @@ h1, h2, h3, h4, h5 {
   font-size: 3em;
   color: #fff;
   text-align: center;
+  text-shadow: #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px,
+               #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px,
+               #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px,
+               #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px;
 }
