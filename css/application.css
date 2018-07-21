@@ -1,20 +1,81 @@
-.navbar-custom {
-    background-color: #fff;
-}
-a.navbar-brandd{
-    display: block;
-    border: 4px solid #000;
-    padding-left: 10px;
-    margin: 30px;
-    color: #000;
-    font-family: 'Open Sans';
-    font-weight: 300;
-    font-size: 3em;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
 }
 
-.logo-last {
-    color: #000;
-    font-weight: 700;
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans', serif;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #fff;
+  /* border-bottom: 1px solid #F2385A; */
+  border-bottom: 2px solid #000;
+}
+
+.navbar-brand {
+  display: block;
+  border: 4px solid #000;
+  padding-left: 17px;
+  padding-right: 10px;
+  color: #000;
+  font-family: 'Open Sans', serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.method {
+  font-weight: 700;
+}
+
+.contact-nav-item {
+  background-color: #F2385A;
+  border-radius: 10px;
+}
+
+.contact-nav-item a {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.nav-link img {
+  height: 30px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+}
+
+.jumbotron {
+  background-color: #F00;
+  background-image: url("../img/jumbo-blue.jpg");
+  background-size: cover;
+  min-height: 375px;
+  position: relative;
+}
+
+.jumbotron .headers {
+  position: absolute;
+  bottom: 25%;
+  left:0;
+  right:0;
+  margin: auto auto;
+}
+
+.jumbotron .divider {
+  display: block;
+  margin: 0 auto;
+  border-bottom: 1px solid #fff;
+  width: 100px;
+  height: 5px;
+}
+
+.jumbotron h1 {
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
 }
