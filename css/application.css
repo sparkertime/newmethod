@@ -6,6 +6,13 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: 'Open Sans', serif;
   font-weight: bold;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: 300;
+  font-size: 1.5em;
+  text-transform: uppercase;
 }
 
 .navbar {
@@ -91,4 +98,47 @@ h1, h2, h3, h4, h5 {
   text-transform: uppercase;
   color: #fff;
   text-align: center;
+}
+
+.section {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap; 
+}
+
+.section > span {
+  position: relative;
+  display: inline-block;
+}
+
+.section > span:before,
+.section > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 1px;
+  background-color: #F2385A;
+}
+
+.section > span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.section > span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.section-overview {
+  font-size: 1.5em;
+}
+
+.service-header {
+  height: 75px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
 }
