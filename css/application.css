@@ -196,3 +196,8 @@ h4 {
 .contact-link:hover {
   color: #fff;
 }
+
+footer p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+}
