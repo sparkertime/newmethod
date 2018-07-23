@@ -133,7 +133,17 @@ h1, h2 {
 }
 
 .section-overview {
-  font-size: 1.5em;
+  font-size: 1.25em;
+}
+
+.headshot {
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+.why {
+  margin-top: 10px;
 }
 
 .service-header {
