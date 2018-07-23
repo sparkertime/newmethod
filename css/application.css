@@ -66,7 +66,7 @@ h1, h2 {
 }
 
 .jumbotron {
-  background-image: url("../img/jumbo-final2.jpg");
+  background-image: url("../img/jumbo.jpg");
   background-size: cover;
   min-height: 375px;
   position: relative;
