@@ -133,17 +133,24 @@ h1, h2 {
 }
 
 .section-overview {
-  font-size: 1.25em;
+  font-size: 1.1em;
 }
 
 .headshot {
   height: 200px;
   display: block;
   margin: auto;
+  border: 2px solid #000;
+  border-radius: 10px;
 }
 
-.why {
-  margin-top: 10px;
+.section-break {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.section-break.first {
+  margin-top: 0px;
 }
 
 .service-header {
@@ -151,5 +158,40 @@ h1, h2 {
   display: block;
   margin: auto;
   margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+h4 {
+  background-color: #666;
+  border-radius: 50%;
+  line-height: 150px;
+  height: 150px;
+  width: 150px;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 1.3em;
+}
+
+.process {
+  margin-top: 10px;
+}
+
+.contact-link {
+  display: block;
+  font-size: 1.5em;
+  background-color: #F2385A;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'Open Sans', serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  border: 1px solid #990000;
+}
+
+.contact-link:hover {
+  color: #fff;
 }
